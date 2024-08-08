@@ -2,7 +2,7 @@
 int main(){
     int T,i,n;
     scanf("%d",&T);
-    for(int i=1;i<T;i++){
+    for(int i=1;i<=T;i++){
         scanf("%d",&n);
         if(n%2 == 0){
             printf("even\n");
